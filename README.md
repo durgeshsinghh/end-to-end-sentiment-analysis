@@ -62,7 +62,9 @@ Best Performing Model:
 - Trained multiple classifiers
 - Compared accuracy
 - Selected best model
-- <img width="712" height="533" alt="image" src="https://github.com/user-attachments/assets/cccc9089-ccab-4490-ab84-90a1d6eb6d04" />
+- <img width="1018" height="496" alt="image" src="https://github.com/user-attachments/assets/d7832f0c-87ba-4eaa-a258-9de6c274e886" />
+<img width="1018" height="496" alt="image" src="https://github.com/user-attachments/assets/d7832f0c-87ba-4eaa-a258-9de6c274e886" />
+
 
 
 ### 4️⃣ Model Deployment
