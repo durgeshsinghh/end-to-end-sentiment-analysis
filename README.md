@@ -42,7 +42,7 @@ Best Performing Model:
 ## 📂 Project Structure
 
 <img width="973" height="466" alt="image" src="https://github.com/user-attachments/assets/ae3c95ef-510a-4f03-8cc8-17230e5c5349" />
-<img width="730" height="493" alt="image" src="https://github.com/user-attachments/assets/f82c0297-33b1-4a74-a351-260bd42a0d25" />
+
 
 
 
@@ -66,6 +66,7 @@ Best Performing Model:
 - Compared accuracy
 - Selected best model
 - <img width="1018" height="496" alt="image" src="https://github.com/user-attachments/assets/d7832f0c-87ba-4eaa-a258-9de6c274e886" />
+<img width="730" height="493" alt="image" src="https://github.com/user-attachments/assets/f82c0297-33b1-4a74-a351-260bd42a0d25" />
 
 
 
