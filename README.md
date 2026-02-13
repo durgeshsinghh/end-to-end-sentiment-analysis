@@ -62,6 +62,8 @@ Best Performing Model:
 - Trained multiple classifiers
 - Compared accuracy
 - Selected best model
+- <img width="712" height="533" alt="image" src="https://github.com/user-attachments/assets/cccc9089-ccab-4490-ab84-90a1d6eb6d04" />
+
 
 ### 4️⃣ Model Deployment
 - Saved trained model using Joblib
