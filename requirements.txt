@@ -1,4 +1,3 @@
-pip install fastapi uvicorn streamlit joblib scikit-learn
 streamlit
 scikit-learn
 joblib
