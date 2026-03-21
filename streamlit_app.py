@@ -1,18 +1,26 @@
 import streamlit as st
-import requests
+import joblib
+
+st.set_page_config(page_title="Sentiment Analysis", page_icon="🎬")
 
 st.title("🎬 IMDB Sentiment Analysis")
+
+# Load vectorizer and model
+vectorizer = joblib.load("models/tfidf_vectorizer.pkl")
+model = joblib.load("models/tfidf_logistic.pkl")
 
 review = st.text_area("Enter your movie review:")
 
 if st.button("Predict Sentiment"):
-    response = requests.post(
-        "http://127.0.0.1:8000/predict",
-        params={"review": review}
-    )
+    if review.strip() == "":
+        st.warning("Please enter a review")
+    else:
+        # Transform input
+        transformed_review = vectorizer.transform([review])
 
-    result = response.json()
+        # Predict
+        prediction = model.predict(transformed_review)[0]
 
-    st.success(f"Prediction: {result['prediction']}")
+        sentiment = "Positive" if prediction == 1 else "Negative"
 
-    
+        st.success(f"Prediction: {sentiment}")
